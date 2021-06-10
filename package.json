@@ -1,7 +1,11 @@
 {
   "name": "ConversationToJSON",
   "version": "1.0.0",
+  "scripts": {
+    "prod-mod": "node index.js",
+     "dev-mod": "nodemon index.js"
+  },
   "dependencies": {
-
+    "nodemon": "^2.0.7"
   }
 }
